@@ -1,0 +1,44 @@
+.search {
+    position: relative;
+    top: -77px;
+    left: 820px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #c6caca;
+    width: 217px;
+    padding-bottom: 5px;
+    color: #c6caca;
+    margin-top: 6px;
+}
+
+.searchIcon {
+    position: relative;
+    top: -75px;
+    left: 805px;
+    color: #c6caca;
+    height: 34px;
+}
+
+.floatRight {
+    position: relative;
+    top: -106px;
+    left: 1067px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.subscribe {
+    border-radius: 5px;
+    background-color: #1f80e0;
+    color: white;
+    padding: 3px 12px 3px 12px;
+    outline: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.login {
+    font-weight: 500;
+    margin-left: 16px;
+}

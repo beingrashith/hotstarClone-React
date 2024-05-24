@@ -1,0 +1,27 @@
+.connectWithUs {
+    margin: -100px auto auto 681px;
+    font-size: small;
+    font-weight: 500;
+}
+
+.fbIcon {
+    position: relative;
+    top: 3px;
+    right: -676px;
+    width: 87px;
+    height: auto
+}
+
+.disneyApp {
+    margin: -67px auto auto 858px;
+    font-size: small;
+    font-weight: 500;
+}
+
+.googleIcon {
+    position: relative;
+    top: 4px;
+    right: -853px;
+    width: 260px;
+    height: auto;
+}

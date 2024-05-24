@@ -1,0 +1,28 @@
+.pictureContainer {
+    width: 1268px;
+    height: 243px;
+    margin: -19px auto 0px -5px;
+    padding-left: 30px;
+    overflow: auto;
+    display: flex;
+    overflow-y: hidden;
+}
+
+.pictureContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.picture {
+    border-radius: 10px;
+    height: 165px;
+    width: auto;
+    padding: 0px 5px 0px 5px;
+    transition: 1s;
+    margin-top: 40px;
+}
+
+.picture:hover {
+    cursor: pointer;
+    z-index: 2;
+
+}

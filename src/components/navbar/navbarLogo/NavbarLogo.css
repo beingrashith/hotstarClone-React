@@ -1,0 +1,197 @@
+.navbarIcon {
+    height: auto;
+    width: 116px;
+    margin: 16px 0px 0px 67px;
+}
+
+.navbarIcon:hover {
+    cursor: pointer;
+}
+
+
+.hamburger {
+    position: relative;
+    left: 54px;
+    top: 7px;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
+.hamburgerHover {
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    font-size: small;
+    border-radius: 5px;
+    background-color: #192133;
+    width: 130px;
+    opacity: 0;
+}
+
+.divtitle {
+    display: flex;
+    padding: 10px;
+}
+
+.divtitle:hover {
+    background-color: black;
+
+}
+
+.divIcon {
+    padding-right: 10px;
+    padding-left: 10px
+}
+
+.hamburger:hover .hamburgerHover {
+    opacity: 1;
+    animation: slideDown 0.5s ease-in;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-5px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+
+    }
+}
+
+.linksContainer {
+    display: flex;
+    position: relative;
+    left: 228px;
+    top: -38px;
+}
+
+.links {
+    margin-right: 22px;
+}
+
+.links:hover {
+    color: white;
+}
+
+.kidlinkimg {
+    height: 35px;
+    width: 55px;
+    margin-top: -3px;
+}
+
+.kidlinkimg,
+.links:hover {
+    cursor: pointer;
+}
+
+.tvHover {
+    position: absolute;
+    top: 42px;
+    left: -10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #192133;
+    border-radius: 5px;
+    font-size: small;
+    opacity: 0;
+    display: none;
+}
+
+
+.tv:hover .tvHover {
+    opacity: 1;
+    animation: slideIn 0.5s ease-in;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(5px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+
+    }
+}
+
+.tvTitle {
+    height: 15px;
+    padding: 15px;
+}
+
+.tvTitle:hover {
+    background-color: #111826;
+}
+
+.moviesHover {
+    position: absolute;
+    top: 42px;
+    left: 35px;
+    display: flex;
+    flex-direction: column;
+    background-color: #192133;
+    border-radius: 5px;
+    font-size: small;
+    opacity: 0;
+    display: none;
+}
+
+.moviesTitle {
+    height: 15px;
+    padding: 15px;
+}
+
+.moviesTitle:hover {
+    background-color: #111826;
+}
+
+.movies:hover .moviesHover {
+    opacity: 1;
+    animation: slideIn 0.5s ease-in;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(5px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.sportsHover {
+    position: absolute;
+    top: 42px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #192133;
+    border-radius: 5px;
+    font-size: small;
+    opacity: 0;
+    display: none;
+}
+
+.sportsTitle {
+    height: 15px;
+    padding: 15px;
+}
+
+.sportsTitle:hover {
+    background-color: #111826;
+}
+
+.sports:hover .sportsHover {
+    opacity: 1;
+    animation: slideIn 0.5s ease-in;
+}

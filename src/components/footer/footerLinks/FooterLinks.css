@@ -1,0 +1,26 @@
+.footerLinks {
+    font-size: small;
+    margin-right: -21px;
+}
+
+.forPadding {
+    padding-bottom: 4px;
+}
+
+.footerLinksContainer {
+    margin-left: 39px;
+}
+
+.footerLinks:hover {
+    color: skyblue;
+    cursor: pointer;
+}
+
+.footerTitle {
+    padding-top: 0px;
+    font-size: 11px;
+    line-height: 1.8;
+    margin-left: 38px;
+    width: 541px;
+    font-family: Arial, Helvetica, sans-serif;
+}
